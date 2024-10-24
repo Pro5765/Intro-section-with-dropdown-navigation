@@ -1,0 +1,124 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Snap
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Epilogue', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-white text-gray-800">
+  <header class="flex justify-between items-center p-6">
+   <div class="flex items-center space-x-8">
+    <div class="text-2xl font-bold">
+     snap
+    </div>
+    <nav class="flex space-x-6">
+     <div class="relative group">
+      <button class="flex items-center space-x-1">
+       <span>
+        Features
+       </span>
+       <i class="fas fa-chevron-down">
+       </i>
+      </button>
+      <div class="absolute left-0 mt-2 w-40 bg-white shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
+       <a class="flex items-center p-2 hover:bg-gray-100" href="#">
+        <i class="fas fa-check-circle text-blue-500 mr-2">
+        </i>
+        <span>
+         Todo List
+        </span>
+       </a>
+       <a class="flex items-center p-2 hover:bg-gray-100" href="#">
+        <i class="fas fa-calendar-alt text-teal-500 mr-2">
+        </i>
+        <span>
+         Calendar
+        </span>
+       </a>
+       <a class="flex items-center p-2 hover:bg-gray-100" href="#">
+        <i class="fas fa-bell text-yellow-500 mr-2">
+        </i>
+        <span>
+         Reminders
+        </span>
+       </a>
+       <a class="flex items-center p-2 hover:bg-gray-100" href="#">
+        <i class="fas fa-project-diagram text-purple-500 mr-2">
+        </i>
+        <span>
+         Planning
+        </span>
+       </a>
+      </div>
+     </div>
+     <div class="relative group">
+      <button class="flex items-center space-x-1">
+       <span>
+        Company
+       </span>
+       <i class="fas fa-chevron-down">
+       </i>
+      </button>
+      <div class="absolute left-0 mt-2 w-40 bg-white shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
+       <a class="block p-2 hover:bg-gray-100" href="#">
+        History
+       </a>
+       <a class="block p-2 hover:bg-gray-100" href="#">
+        Our Team
+       </a>
+       <a class="block p-2 hover:bg-gray-100" href="#">
+        Blog
+       </a>
+      </div>
+     </div>
+     <a class="hover:text-gray-600" href="#">
+      Careers
+     </a>
+     <a class="hover:text-gray-600" href="#">
+      About
+     </a>
+    </nav>
+   </div>
+   <div class="flex space-x-4">
+    <a class="hover:text-gray-600" href="#">
+     Login
+    </a>
+    <a class="border border-gray-800 rounded-full px-4 py-1 hover:bg-gray-100" href="#">
+     Register
+    </a>
+   </div>
+  </header>
+  <main class="flex flex-col md:flex-row items-center justify-between p-6 md:p-12">
+   <div class="max-w-lg">
+    <h1 class="text-5xl font-bold mb-6">
+     Make remote work
+    </h1>
+    <p class="text-lg mb-6">
+     Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+    </p>
+    <a class="inline-block border border-gray-800 rounded-full px-6 py-2 hover:bg-gray-100" href="#">
+     Learn more
+    </a>
+   </div>
+   <div class="mt-12 md:mt-0">
+    <img alt="Person working on a laptop with abstract geometric shapes in the background" class="w-full max-w-md" height="400" src="images/image-hero-desktop.png" width="400"/>
+   </div>
+  </main>
+  <footer class="flex justify-center space-x-8 p-6">
+   <img alt="databiz logo" height="40" src="images/client-databiz.svg" width="100"/>
+   <img alt="audiophile logo" height="40" src="images/client-audiophile.svg" width="100"/>
+   <img alt="meet logo" height="40" src="images/client-meet.svg" width="100"/>
+   <img alt="maker logo" height="40" src="images/client-maker.svg" width="100"/>
+  </footer>
+ </body>
+</html>
